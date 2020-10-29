@@ -1,15 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-  <link rel="stylesheet" href="./src/style/index.css">
-</head>
-<body>
-  Hello World
-  <script src="src/app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./src/style/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-page-heart">
+        <h2 class="facebook">facebook<button class="register">注册</button></h2>
+        <a href="#" class="join-us">加入或登录 Facebook </a>
+      </div>
+    </header>
+    <main class="main-content page-heart">
+      <header class="creat-main-page">
+        <h3>创建主页</h3>
+        <p class="page-introduction">
+          向 Facebook
+          全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+        </p>
+      </header>
+      <article class="page-category">
+        <section class="page-category-items">
+          <figure>
+            <img src="./src/images/3.jpg" alt="" class="brand-img" />
+          </figure>
+          <h4>商家或品牌</h4>
+          <p class="category-introduction">
+            全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+          </p>
+          <button class="category-button">开始</button>
+        </section>
+        <section class="page-category-items">
+          <figure>
+            <img src="./src/images/2.jpg" alt="" class="brand-img" />
+          </figure>
+          <h4>商家或品牌</h4>
+          <p class="category-introduction">
+            全球社群推广你的业务、你自己或你的公益理念。选择一个主页类别即可开始操作。
+          </p>
+          <button class="category-button">开始</button>
+        </section>
+      </article>
+    </main>
+    <script src="src/app.js"></script>
+  </body>
 </html>
